@@ -13,10 +13,11 @@ const {
   ERR_XRPL,
 } = require("./utils");
 const fs = require("fs");
+const cors = require("cors");
 
 const app = express();
 let AttendifyLib = new Attendify();
-
+app.use(cors());
 /**
  * Checks if all required params were provided for requested endpoint
  * @param {Array} params - list of parameters that are necessary for correct execution of code in checked endpoint

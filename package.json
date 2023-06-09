@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "chai": "^4.3.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "ipfs-http-client": "^59.0.0",
@@ -19,8 +20,8 @@
   "author": "Daniel",
   "license": "ISC",
   "devDependencies": {
-    "supertest": "^6.3.3",
     "mocha": "*",
-    "nodemon": "*"
+    "nodemon": "*",
+    "supertest": "^6.3.3"
   }
 }
